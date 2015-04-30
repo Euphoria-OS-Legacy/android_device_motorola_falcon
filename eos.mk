@@ -9,4 +9,4 @@ PRODUCT_NAME := eos_falcon
 
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
-    vendor/eos/prebuilt/common/bootanimations/BOOTANIMATION-1280x768.zip:system/media/bootanimation.zip
+    device/motorola/msm8226-common/configs/bootanimation.zip:system/media/bootanimation.zip
